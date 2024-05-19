@@ -5,7 +5,7 @@ const { BigNumber, utils } = ethers
 
 const provider = new ethers.providers.WebSocketProvider(
   `https://polygon-mainnet.infura.io/v3/${process.env.INFURA_ID}`,
-  'rinkeby',
+  'polygon',
 )
 
 const depositWallet = new ethers.Wallet(
