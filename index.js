@@ -4,8 +4,8 @@ const ethers = require('ethers')
 const { BigNumber, utils } = ethers
 
 const provider = new ethers.providers.WebSocketProvider(
-  `https://polygon-mainnet.infura.io/v3/${process.env.INFURA_ID}`,
-  'polygon',
+  `https://sepolia.infura.io/v3/${process.env.INFURA_ID}`,
+  'sepolia',
 )
 
 const depositWallet = new ethers.Wallet(
